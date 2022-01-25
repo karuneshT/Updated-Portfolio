@@ -1,0 +1,117 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.about-title {
+  background-image: linear-gradient(#ffbb33, #ffbb33);
+  background-position: bottom;
+  background-size: 45% 3px;
+  background-position-x: 0;
+  background-repeat: no-repeat;
+  padding-bottom: 2px;
+}
+
+.about {
+  font-size: 15px;
+  line-height: 2.7vh;
+}
+
+.hire,.about,.portfolio {
+  background-color: #3c3c3c;
+  font-family: 'Poppins', sans-serif;
+  color: rgb(207, 207, 207);
+}
+
+.underline{
+  background-position: bottom;
+  background-size: 9% 3px;
+  background-position-x: 50%;
+  background-repeat: no-repeat;
+  padding-bottom: 20px;
+}
+
+.underline-white{
+  background-image: linear-gradient(rgb(207, 207, 207), rgb(207, 207, 207));
+}
+
+.underline-yellow{
+  background-image: linear-gradient(#ffbb33, #ffbb33);
+}
+
+label{
+  font-family: 'Poppins', sans-serif;
+}
+
+input[type=text],textarea[type=text]{
+  background-color: #3c3c3c;
+  border:none;
+  border-radius:2px;
+  line-height: 3.5vh;
+  font-family: 'Poppins', sans-serif;
+  font-size:15px;
+  color:#ffbb33;
+}
+
+.social-links{
+  border-radius: 50%;
+  background-color: #313131;
+  height:34px;
+  width:34px;
+  padding:10px 0 0 0;
+  color:rgba(207, 207, 207, 0.623);
+  margin-top:30px;
+}
+
+.experience-pane{
+  border:1px solid grey;
+  margin-left:-1px;
+  background-color:#3c3c3c ;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  color:rgba(207,   207, 207, 0.623);
+  margin-bottom: 3rem;
+  width:25rem;
+}
+
+.margin-0{
+  margin-bottom:0;
+}
+
+.service-pallete{
+  background-color:grey;
+  height:420px;
+  width:484px;
+  background-repeat: no-repeat;
+  background-size: 484px 420px;
+  border-radius: 6px;
+  text-align: left;
+  font-size: 13px;
+  color:#3c3c3c;
+}
+
+/* .service-background-blue{
+  background-image: linear-gradient( rgba(0, 183, 255, 0.938),rgba(0, 183, 255, 0.815)),url('./images/1.jpg');
+} */
+
+.service-background-yellow{
+  background-image: linear-gradient(#ffbb33c4, #ffbb33cc),url('./images/2.jpg');
+}
+
+/* .service-background-pink{
+  background-image: linear-gradient( to right,rgba(223, 57, 209, 0.884),rgba(223, 57, 209, 0.774)),url('./images/3.jpg');
+} */
+
+.service-background-green{
+  background-image: linear-gradient( rgba(0, 255, 34, 0.788),rgba(0, 255, 13, 0.692)),url('./images/4.jpg');
+}

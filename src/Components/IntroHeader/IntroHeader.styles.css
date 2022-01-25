@@ -1,0 +1,24 @@
+h1 {
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+}
+
+div>b {
+    font-size: 75px;
+}
+
+.navigate-tabs {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+
+.navigate-tabs:hover{
+    color:#ffbb33;
+    background-image: linear-gradient(#ffbb33, #ffbb33);
+    background-position:bottom;
+    background-size: 45% 2px;
+    background-position-x:25%;
+    background-repeat: no-repeat;
+    padding-bottom: 2px;
+}
