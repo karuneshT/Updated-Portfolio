@@ -14,7 +14,7 @@ function IntroHeader() {
         <div className="intro-content text-start ps-5">
           <b>I'm Karunesh</b>
           <p className="fs-4">
-            Freelance Web & Mobile UI/UX <br /> Designer
+            Freelance Web & Mobile Application <br /> Developer
           </p>
           <button
             type="button"
